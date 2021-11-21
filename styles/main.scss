@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+@import "_grid.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+:root {
+  --text-white : #fff;
+  --text-black: #000;
+
+  --yellow-color: #fff840;
+  --grey-color : #81836c;
+  --pink-color: #E280FF;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}

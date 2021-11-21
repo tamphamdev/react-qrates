@@ -1,0 +1,28 @@
+.header {
+  padding: 30px;
+}
+.header-public {
+  justify-content: space-between;
+  display: flex;
+  &__nav,&__login {
+    display: none;
+    // @include device(phone) {
+    //   display: block;
+    // }
+  }
+  &__login > button {
+
+  }
+}
+
+.logo {
+  width: 39px;
+}
+
+.topnav {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
